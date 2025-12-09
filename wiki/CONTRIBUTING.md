@@ -4,9 +4,9 @@ Thanks for showing interest in contributing to this project.
 
 Here are some important resources:
 
-* Bugs? [Github Issues](https://participatorypolitics.lighthouseapp.com/projects/47665-opengovernment/overview) is where to report them.
+* Bugs? [Github Issues](https://github.com/YOU/YOUR_REPO/issues) is where to report them.
 * Environment? see the [setup](setup/ENV.md) documentation.
-* License? [GPL-3](https://github.com/TheFujirose/Ros2-Examples/blob/main/LICENSE).
+* License? [GPL-3](../LICENSE).
 
 ## AI Use
 
@@ -18,7 +18,7 @@ An [article](https://www.fsf.org/licensing/copilot/on-the-nature-of-ai-code-copi
 
 ## Submitting changes
 
-Please send a [GitHub Pull Request](https://github.com/TheFujirose/Ros2-Examples/pulls) with a clear list of what you've done--read more about [pull requests](https://github.com/TheFujirose/Ros2-Examples/issues/new/choose).
+Please send a [GitHub Pull Request](https://github.com/YOU/YOUR_REPO/pulls) with a clear list of what you've done--read more about [pull requests](https://github.com/YOU/YOUR_REPO/issues/new/choose).
 
 Always write a clear log message for your commits. One-line messages are fine for small changes, but bigger changes should look like this:
 

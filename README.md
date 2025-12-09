@@ -1,10 +1,10 @@
-# Perception Ros Tools
+# NAME OF PACKAGE
 
-Perception Ros package
+DETAILS REGARDING WHAT THIS IS FOR
 
 ## Features
 
-- **`Colcon`** package
+- **`Colcon`** package.
 
 ## Technology
 
@@ -27,7 +27,9 @@ Ensure you have set up your environment following [instructions](./wiki/setup/EN
 
 For building the workspace with Windows see the below note: Building with Windows.
 
-Otherwise--regardless of Linux or macOs--navigate to the project root `Ros2-Examples/` and run `colcon build`. It may be needed to use the option `--symlink-install` as some build types do not support `devel` spaces. For more information on `catkin`'s `devel` space read [this documentation](https://catkin-tools.readthedocs.io/en/latest/advanced/linked_develspace.html)
+Regardless of Linux or macOs distrubution, navigate to the project root `PROJECT-NAME/` and run `colcon build`. It may be needed to use the option `--symlink-install` as some build types do not support `devel` spaces.
+
+For more information on `catkin`'s `devel` space read [this documentation](https://catkin-tools.readthedocs.io/en/latest/advanced/linked_develspace.html).
 
 ```bash
 colcon build --symlink-install
@@ -42,16 +44,16 @@ colon test --symlink-install
 #### Building with Windows
 
 To build packages on Windows you need to be in a Visual Studio environment.
-It is reccomended to charge your device as source installation can take time.
+It is recommended to charge your device as source installation can take time.
 
-First, open a Visual Studio Command Prompt (“x64 Native Tools Command Prompt for VS 2019”) running as Administrator.
+First, open a Visual Studio Command Prompt `x64 Native Tools Command Prompt for VS 2019` running as Administrator.
 then, build the `\humble` folder tree with the command:
 
 ```powershell
 colcon build --merge-install
 ```
 
-If you are doing a debug build follow the command
+If you are doing a debug build follow the command:
 
 ```powershell
 python_d path\to\colcon_executable colcon.
@@ -71,9 +73,9 @@ colcon test --merge-install
 
 ```text
 Ros2-Examples/
-├── build/                       # Bash scripts
-├── install/                     # Bash scripts
-├── log/                         # Bash scripts
+├── build/                       # Colcon intermediate files
+├── install/                     # Colcon package installation
+├── log/                         # Colcon Logging information
 ├── src/                         # Source code
 ├── wiki/                        # Additional documentation
 │   ├── setup/                   # Setup documentation

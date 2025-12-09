@@ -1,6 +1,6 @@
 # Source Setup
 
-First, you need to source the setup files
+First, you need to source the setup files; this depends on your operating system.
 
 ### Linux
 
@@ -8,7 +8,7 @@ First, you need to source the setup files
 source /opt/ros/humble/setup.bash
 ```
 
-Notes that you can replace `.bash` with any shell and use the corresponding file extention
+Notes that you can replace `.bash` with any shell and use the corresponding file extention.
 
 If you don’t want to have to source the setup file every time you open a new shell (skipping task 1), then you can add the command to your shell startup script:
 
