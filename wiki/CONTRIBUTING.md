@@ -8,6 +8,14 @@ Here are some important resources:
 * Environment? see the [setup](setup/ENV.md) documentation.
 * License? [GPL-3](https://github.com/TheFujirose/Ros2-Examples/blob/main/LICENSE).
 
+## AI Use
+
+Code generated from AI models are not accepted in this project and will be rejected. This is because AI generated code does not follow the standards of copyleft and software licenses.
+
+An [article](https://www.fsf.org/licensing/copilot/on-the-nature-of-ai-code-copilots) from the Free Software Foundation states:
+
+> Further given that the verbatim return of inputs does not fall under fair use, nor does it obtain the authorisation of the copyright holders to use their code in such a manner and are as such in violation of both copyleft and proprietary software licenses.
+
 ## Submitting changes
 
 Please send a [GitHub Pull Request](https://github.com/TheFujirose/Ros2-Examples/pulls) with a clear list of what you've done--read more about [pull requests](https://github.com/TheFujirose/Ros2-Examples/issues/new/choose).
