@@ -2,7 +2,7 @@
 
 Various ROS 2 Examples
 
-## Features 
+## Features
 
 - **Bash scripts** using `turtlesim`,`ros2`, and `rqt`
 
@@ -21,7 +21,7 @@ Various ROS 2 Examples
 
 ### Project Structure
 
-```
+```text
 Ros2-Examples/
 ├── scripts/                     # Bash scripts
 ├── wiki/                        # Additional documentation
