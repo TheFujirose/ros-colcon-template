@@ -9,7 +9,7 @@ The source code can be found in the [colcon GitHub organization](https://github.
 ### Requirements
 
 Ensure you already installed ROS 2.
-If you have not installed ROS 2 following the [installation instructions](https://docs.ros.org/en/humble/Installation.html)
+If you have not installed ROS 2 follow the [installation instructions](https://docs.ros.org/en/humble/Installation.html)
 
 ## Installation Linux
 
