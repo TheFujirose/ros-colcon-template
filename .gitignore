@@ -1,0 +1,10 @@
+# Virtual enviroments
+venv/
+.venv/
+
+# Compiled Python Files
+__pycach__/
+
+# IDE files
+.vscode/
+*.swp
